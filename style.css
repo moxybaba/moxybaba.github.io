@@ -88,3 +88,6 @@ footer {
   color: #6c63ff;
   transform: scale(1.2);
 }
+html {
+    scroll-behavior: smooth;
+}
