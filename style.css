@@ -70,3 +70,21 @@ footer {
     color: #444;
     font-size: 0.85rem;
 }
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #333;
+  font-size: 28px;
+  transition: color 0.3s, transform 0.3s;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #6c63ff;
+  transform: scale(1.2);
+}
